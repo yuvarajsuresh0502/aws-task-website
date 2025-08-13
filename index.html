@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Task Static Website</title>
+    <style>
+        /* Basic Reset & Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        /* Header Styles */
+        header {
+            background: #232f3e;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ff9900;
+            padding: 0.5rem;
+        }
+        
+        nav a {
+            color: #232f3e;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            background: #232f3e;
+            color: #ff9900;
+            border-radius: 5px;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        section {
+            margin-bottom: 2rem;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h1, h2, h3 {
+            margin-bottom: 1rem;
+            color: #232f3e;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #232f3e;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AWS Task Website</h1>
+        <p>Hosted on GitHub Pages</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Website</h2>
+            <p>This is a static website created for an AWS task and hosted on GitHub Pages. It demonstrates how to deploy a simple website using GitHub's free hosting service.</p>
+            <p>You can modify this template by adding your own content, images, and additional pages.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About This Project</h2>
+            <p>This project was created to showcase:</p>
+            <ul>
+                <li>Basic HTML5 structure</li>
+                <li>CSS styling without external files</li>
+                <li>Responsive design principles</li>
+                <li>GitHub Pages deployment</li>
+            </ul>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <div>
+                <h3>Web Hosting</h3>
+                <p>Learn how to host static websites for free using GitHub Pages.</p>
+            </div>
+            <div>
+                <h3>AWS Integration</h3>
+                <p>Explore how this can integrate with AWS services like S3 or CloudFront.</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@example.com</p>
+            <p>GitHub: github.com/yourusername</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 AWS Task Website. All rights reserved.</p>
+        <p>Hosted on GitHub Pages</p>
+    </footer>
+</body>
+</html>
